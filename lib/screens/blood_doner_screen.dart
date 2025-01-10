@@ -110,6 +110,8 @@ class BloodDonerScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      ///Sry...Sir, I have changed this...I don't know too many of Git Hub's rules. So, Please pardon me...
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
           title: const Text('Blood Doner'),
